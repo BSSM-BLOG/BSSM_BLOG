@@ -33,3 +33,9 @@
 .login-box button:hover {
   background-color: #838383;
 }
+.input {
+  font-size: 2em;
+  border: none;
+  width: 13em;
+  text-align: center;
+}

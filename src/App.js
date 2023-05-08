@@ -19,14 +19,17 @@ function App() {
       />
       {loginId && <IdBox 
         setLoginId = {setLoginId}
+        setLoginPw = {setLoginPw}
         setUser = {setUser}
         userPw = {user.pw}
         userId = {user.id}
       />}
       {loginPw && <PwBox 
+        setLoginPw = {setLoginPw}
         setUser = {setUser}
         user = {user}
         userPw = {user.pw}
+        userId = {user.id}
       />}
     </>
   );
