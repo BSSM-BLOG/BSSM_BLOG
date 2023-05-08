@@ -20,7 +20,7 @@
 .login-box input {
   height: 2em;
 }
-.login-box button {
+.login-button {
   background-color: #3e3e3e;
   color: white;
   border: none;
@@ -30,7 +30,7 @@
   height: 2em;
   font-size: 1.5em;
 }
-.login-box button:hover {
+.login-button:hover {
   background-color: #838383;
 }
 .input {

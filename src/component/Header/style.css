@@ -21,10 +21,28 @@ header h2 {
   height: 100%;
   background-color: #000000;
   color: #ffffff;
-  right: 2em;
+  right: 4.5em;
+  border: none;
+  font-size: 1.1em;
+  margin-right: 2em;
+}
+.login:hover {
+  background-color: #3e3e3e;
+}
+.signup {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5em;
+  border-radius: 0.7em;
+  height: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  right: 1em;
   border: none;
   font-size: 1.1em;
 }
-.login:hover {
+.signup:hover {
   background-color: #3e3e3e;
 }

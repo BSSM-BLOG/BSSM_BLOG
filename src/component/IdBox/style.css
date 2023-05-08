@@ -20,17 +20,17 @@
 .login-box input {
   height: 2em;
 }
-.login-box button {
+.login-button {
   background-color: #3e3e3e;
   color: white;
   border: none;
   border-radius: 0.5em;
-  margin-top: 3em;
   width: 15em;
   height: 2em;
   font-size: 1.5em;
+  margin-bottom: 2em;
 }
-.login-box button:hover {
+.login-button:hover {
   background-color: #838383;
 }
 .input {
@@ -38,4 +38,16 @@
   border: none;
   width: 13em;
   text-align: center;
+}
+.close-button {
+  background-color: #e8e7e7;
+  width: 2.4em;
+  height: 2.5em;
+  border-radius: 100%;
+  border: none;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+.close-button:hover {
+  background-color: #b4b3b3;
 }
