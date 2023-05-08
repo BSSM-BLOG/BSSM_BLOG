@@ -1,13 +1,10 @@
-import React, { useState } from 'react';
-import LoginBox from '../LoginBox';
+import React from 'react';
 import './style.css'
 
-const Header = () => {
-
-  const [login,setLogin] = useState(false)
+const Header = ({setLoginId}) => {
 
   const onHandleLoginClick = () => {
-    setLogin(true)
+    setLoginId(true)
   }
 
   return (
@@ -16,7 +13,6 @@ const Header = () => {
         <h2>BSSM BLOG</h2>
         <button className='login' onClick={onHandleLoginClick}>Log In</button>
       </header>
-      {login && <LoginBox />}
     </>
   );
 };
